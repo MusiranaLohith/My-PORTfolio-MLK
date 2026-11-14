@@ -19,7 +19,7 @@ Currently, I'm strengthening my software engineering and AI/ML skills while expl
 - **Programming:** Python, Java, C
 - **AI & Machine Learning:** Machine Learning, NLP, Large Language Models
 - **Backend:** FastAPI, PostgreSQL
-- **Frontend:** React, JavaScript, HTML, CSS
+- **Frontend:** JavaScript, HTML, CSS
 - **Tools & Deployment:** Git, GitHub, Docker
 
 ## Portfolio Preview
