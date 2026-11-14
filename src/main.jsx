@@ -82,7 +82,7 @@ const projects = [
       ["Feature fusion", "CNN-derived features are concatenated with engineered features before the final classification layers."],
       ["Research evaluation", "The paper reports accuracy, precision, recall and F1-score on a balanced subset and a larger dataset, as well as five-fold cross-validation."]
     ],
-    paper: "/assets/papers/multi-model-feature-representation-cnn-malicious-website-detection.pdf",
+    paper: `${import.meta.env.BASE_URL}assets/papers/multi-model-feature-representation-cnn-malicious-website-detection.pdf`,
     paperLabel: "Read camera-ready research paper",
     authors: "Ajay Kumar Velisoju, Lohith Kumar Musirana, Shriya Sriramoji, Abhilash Abrapuri and Sumangala G.",
     honest: "This was a group research project. The paper's reported results are presented as paper-reported results, not as independently verified production performance. The paper discusses future work including transformer/attention models, richer webpage and DNS features, explainability and real-time deployment."
@@ -233,8 +233,8 @@ function App() {
           <Doodle type="terminal" className="doodle-credentials"/>
           <div className="section-label"><span>04 / CERTIFICATION</span><b>CONTINUOUS LEARNING</b></div>
           <div className="credential-card">
-            <a className="certificate-preview" href="/assets/ml-specialization-certificate.pdf" target="_blank" rel="noreferrer" aria-label="Open Machine Learning Specialization certificate PDF"><img src="/assets/ml-specialization-certificate.png" alt="Coursera Machine Learning Specialization certificate awarded to Lohith Kumar Musirana"/><span>VIEW CERTIFICATE ↗</span></a>
-            <div className="credential-copy"><span className="credential-type">PROFESSIONAL CERTIFICATE / ONLINE · MAR 10, 2026</span><h2>Machine Learning<br/><em>Specialization.</em></h2><p className="credential-provider">DeepLearning.AI · Coursera · Andrew Ng</p><p>Completed all three courses: Supervised Machine Learning: Regression and Classification; Advanced Learning Algorithms; and Unsupervised Learning, Recommenders, Reinforcement Learning.</p><div className="credential-actions"><a className="credential-link" href="https://coursera.org/verify/specialization/FEM53LQP3EFP" target="_blank" rel="noreferrer">Verify certificate <ArrowUpRight size={15}/></a><a className="credential-link credential-link-secondary" href="/assets/ml-specialization-certificate.pdf" target="_blank" rel="noreferrer">Open certificate PDF <ArrowUpRight size={15}/></a></div></div>
+            <a className="certificate-preview" href={`${import.meta.env.BASE_URL}assets/ml-specialization-certificate.pdf`} target="_blank" rel="noreferrer" aria-label="Open Machine Learning Specialization certificate PDF"><img src={`${import.meta.env.BASE_URL}assets/ml-specialization-certificate.png`} alt="Coursera Machine Learning Specialization certificate awarded to Lohith Kumar Musirana"/><span>VIEW CERTIFICATE ↗</span></a>
+            <div className="credential-copy"><span className="credential-type">PROFESSIONAL CERTIFICATE / ONLINE · MAR 10, 2026</span><h2>Machine Learning<br/><em>Specialization.</em></h2><p className="credential-provider">DeepLearning.AI · Coursera · Andrew Ng</p><p>Completed all three courses: Supervised Machine Learning: Regression and Classification; Advanced Learning Algorithms; and Unsupervised Learning, Recommenders, Reinforcement Learning.</p><div className="credential-actions"><a className="credential-link" href="https://coursera.org/verify/specialization/FEM53LQP3EFP" target="_blank" rel="noreferrer">Verify certificate <ArrowUpRight size={15}/></a><a className="credential-link credential-link-secondary" href={`${import.meta.env.BASE_URL}assets/ml-specialization-certificate.pdf`} target="_blank" rel="noreferrer">Open certificate PDF <ArrowUpRight size={15}/></a></div></div>
           </div>
         </section>
 
