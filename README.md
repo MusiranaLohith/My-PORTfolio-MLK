@@ -1,20 +1,7 @@
-# Lohith Kumar — Portfolio
+## About Me
 
-Editorial-style personal portfolio built with React and Vite.
+I'm a Computer Science graduate interested in building practical software and exploring how intelligent systems work.
 
-## Run locally
+My primary interests are **Artificial Intelligence, Machine Learning, Python development, and Large Language Models (LLMs)**. I enjoy understanding the fundamentals behind technologies, experimenting with new ideas, and turning what I learn into working projects.
 
-```bash
-npm install
-npm run dev
-```
-
-## Included assets
-
-- `public/assets/ml-specialization-certificate.png` — certificate preview image.
-- `public/assets/ml-specialization-certificate.pdf` — original certificate PDF.
-- `public/assets/papers/multi-model-feature-representation-cnn-malicious-website-detection.pdf` — camera-ready group research paper.
-
-## Notes
-
-The malicious website detection project is presented as a group research project. The paper's reported metrics are identified as paper-reported results, not independent production validation.
+Currently, I'm focused on strengthening my software engineering skills and exploring the development of reliable, AI-powered applications.
