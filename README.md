@@ -1,4 +1,4 @@
-# Lohith Kumar — Portfolio
+# MUSIRANA LOHITH KUMAR
 
 🌐 **[View My Portfolio](https://musiranalohith.github.io/My-PORTfolio-MLK/)**
 
