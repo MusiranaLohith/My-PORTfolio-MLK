@@ -1,0 +1,14 @@
+
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: lohith-portfolio:local
+    container_name: lohith-portfolio
+
+    ports:
+      - "8080:80"
+
+    restart: unless-stopped
